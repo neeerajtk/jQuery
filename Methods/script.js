@@ -1,7 +1,11 @@
-$("div").css("background","purple");
-$("div.highlight").css("width","200px");
-$("#third").css("border","4px solid orange");
-$("div:first-of-type").css("color","pink"); 
-// first-of-type is a css attribute to select only the first occurence
-// $("div:first").css("color","pink"); 
-// the above also works, but slower
+$("h1").text()
+$("li").text("kitkat,gems,mars");
+$("ul").html();
+$("ul").html("<li>Hello</li><li>there</li>");
+$("img").attr("src","ask.jpg");
+// $("input").attr("type","text");
+// $("img:first-of-type").attr("src","ask.jpg");
+$("h1").addClass("correct");
+// $("h1").removeClass("correct");
+$("li").addClass("wrong")
+$("li").toggleClass("wrong")
